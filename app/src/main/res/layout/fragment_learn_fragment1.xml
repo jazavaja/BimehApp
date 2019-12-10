@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/nim" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" app:cardBackgroundColor="#ffffffff" app:cardCornerRadius="10.0dip" app:cardElevation="5.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                        <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:textColor="#ff7c00a9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="فایل صوتی" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+                            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="fill_parent" android:layout_height="50.0dip" android:src="#ffffffff" android:layout_centerInParent="true" app:civ_border_color="#c11390c7" app:civ_border_width="2.0dip" />
+                            <ImageView android:id="@+id/pause"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="15.0dip"
+                                android:src="@drawable/ic_play"
+                                android:tint="#ff630087"
+                                android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="25.0dip" android:layout_weight="0.2">
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginBottom="-5.0dip">
+                                <com.javad.mrbimeh.MyTextView.NumTextView
+                                    android:textColor="#ffa1109c"
+                                    android:id="@+id/totalTime"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="00:00"
+                                    android:layout_alignParentRight="true" />
+                                <com.javad.mrbimeh.MyTextView.NumTextView
+                                    android:textColor="#ffa1109c"
+                                    android:id="@+id/timeNow"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15.0dip"
+                                    android:text="00:00" />
+                            </RelativeLayout>
+                            <android.support.v7.widget.AppCompatSeekBar
+                                android:id="@+id/seekbar"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:progress="0"
+                                android:max="99"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="1.0dip">
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0dip" android:id="@+id/textLearn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="متن تست اولیه" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="1.0dip" app:cardBackgroundColor="#ffffffff" app:cardCornerRadius="10.0dip" app:cardElevation="5.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@+id/image" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="170.0dip" android:src="@drawable/bg" android:scaleType="centerCrop" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" app:cardBackgroundColor="#ffffffff" app:cardCornerRadius="10.0dip" app:cardElevation="5.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                        <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:textColor="#ff7c00a9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="فایل تصویری" />
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:id="@+id/exo_player_view" />
+
+                    </RelativeLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

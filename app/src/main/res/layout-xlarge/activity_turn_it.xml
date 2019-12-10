@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/nim"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:id="@+id/turn_rl"
+            android:layout_width="400.0dip"
+            android:layout_height="400.0dip"
+            android:layout_centerInParent="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/turn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="2.0dip"
+                android:src="@drawable/ringi" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/turnit"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="0.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:padding="15dp"
+                android:foreground="?android:selectableItemBackgroundBorderless"
+                android:src="@drawable/cursor_turn"
+                android:onClick="btn_turnit" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="100.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_below="@+id/turn_rl"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:background="@drawable/shape"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginRight="5.0dip"
+                android:layout_weight="1.0">
+
+                <TextView
+                    android:id="@+id/total_score"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="امتیاز کل"
+                    android:textSize="@dimen/text_size_circular_Xlarge"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/shape"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1.0"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12.0dip"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/score"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="امتیاز بچرخون"
+                    android:textSize="@dimen/text_size_circular_Xlarge" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

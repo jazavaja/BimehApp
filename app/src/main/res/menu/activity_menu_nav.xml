@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/score" android:id="@+id/rates" android:title="امتیازات" />
+    <item android:icon="@drawable/dollar" android:id="@+id/money_bag" android:title="مبلغ کیف پول" />
+    <item android:icon="@drawable/learn" android:id="@+id/question" android:title="سوالات متداول آموزشی" />
+    <item android:icon="@drawable/ic_adver" android:id="@+id/share" android:title="اشتراک برنامه" />
+    <item android:icon="@drawable/learn" android:id="@+id/contact_us" android:title="تماس با ما" />
+    <item android:icon="@drawable/compettion" android:id="@+id/support" android:title="پشتیبانی برنامه" />
+    <item android:icon="@drawable/setting" android:id="@+id/settings" android:title="تنظیمات" />
+    <item android:icon="@drawable/profillee" android:id="@+id/about" android:title="درباره ما" />
+</menu>

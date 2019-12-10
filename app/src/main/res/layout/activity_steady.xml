@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_margin="15.0dip" app:cardCornerRadius="15.0dip" app:cardElevation="5.0dip">
+                <com.github.mikephil.charting.charts.BarChart android:id="@+id/bar_chart1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_margin="15.0dip" app:cardCornerRadius="15.0dip" app:cardElevation="5.0dip">
+                <com.github.mikephil.charting.charts.BarChart android:id="@+id/bar_chart2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_margin="15.0dip" app:cardCornerRadius="15.0dip" app:cardElevation="5.0dip">
+                <com.github.mikephil.charting.charts.BarChart android:id="@+id/bar_chart3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

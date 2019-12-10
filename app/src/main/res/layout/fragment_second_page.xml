@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/nim" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip" android:layout_marginBottom="60.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioGroup android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/groupRadio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+                <RadioButton android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/salane" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_weight="0.5" />
+                <RadioButton android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/sixMahe" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_weight="0.5" />
+                <RadioButton android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/seMahe" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_weight="0.5" />
+            </RadioGroup>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <android.support.v7.widget.CardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" app:cardCornerRadius="15.0dip" app:cardElevation="15.0dip">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip">
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="اشتراک سالانه" />
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="150.0dip" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+                                <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="59.500 \n تومان" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="قرعه کشی ماهانه" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="کارت  مجازی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="درامدزایی یک پلن" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="برداشت حساب 10.000" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="شرکت در مسابقات هفتگی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="درامدزایی تا سقف بی نهایت" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="آموزش اختصاصی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="حقوق تشویقی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="پاداش فروش" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="بدون سقف برداشت" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="واریز آنی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="پاداش فروش 1% اضافه بر سازمان" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="بیمه اتش سوزی رایگان" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="هر هفته یک جایزه بدون قرعه کشی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" app:cardCornerRadius="15.0dip" app:cardElevation="15.0dip">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip" android:layout_weight="1.0">
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="اشتراک 6 ماهه" />
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="150.0dip" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+                                <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="31.500 \n تومان" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="قرعه کشی ماهانه" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="کارت  مجازی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="درامدزایی یک پلن" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="برداشت حساب 10.000" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="شرکت در مسابقات هفتگی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="درامدزایی تا سقف بی نهایت" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="آموزش اختصاصی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="حقوق تشویقی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="پاداش فروش" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="بدون سقف برداشت" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" app:cardCornerRadius="15.0dip" app:cardElevation="15.0dip">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip" android:layout_weight="1.0">
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="اشتراک ماهانه" />
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="150.0dip" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+                                <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5.500 \n تومان" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="قرعه کشی ماهانه" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="کارت  مجازی" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="درامدزایی یک پلن" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:gravity="center" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgslae" android:text="برداشت حساب 10.000" />
+                            <View android:background="@color/laye" android:layout_width="fill_parent" android:layout_height="@dimen/widthkhat" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_gravity="bottom|center" android:id="@+id/btn_accept" android:background="@drawable/shape_btn" android:clickable="true" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:foreground="?android:selectableItemBackgroundBorderless">
+        <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="تایید" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</FrameLayout>

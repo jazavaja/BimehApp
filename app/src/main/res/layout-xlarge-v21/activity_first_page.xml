@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg" android:scaleType="centerCrop" />
+    <View android:id="@+id/view" android:background="#77ffffff" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <View android:id="@+id/spacer" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="40.0dip" android:textColor="#ffffffff" android:gravity="center" android:background="@drawable/shape" android:clickable="true" android:layout_width="220.0dip" android:layout_height="70.0dip" android:layout_marginTop="30.0dip" android:layout_marginBottom="50.0dip" android:foreground="?android:selectableItemBackgroundBorderless" android:text="   ورود   " android:layout_below="@+id/spacer" android:layout_centerHorizontal="true" android:onClick="btn_enter" android:backgroundTint="@color/red" />
+</RelativeLayout>

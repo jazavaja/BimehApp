@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip" android:layout_marginBottom="60.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:id="@+id/groupRadio" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <android.support.v7.widget.CardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" app:cardCornerRadius="15.0dip" app:cardElevation="15.0dip">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip">
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="اشتراک سالانه" />
+                            <RadioButton android:gravity="center|top" android:id="@+id/salane" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="150.0dip" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+                                <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5.500 \n تومان" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهان" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" app:cardCornerRadius="15.0dip" app:cardElevation="15.0dip">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip" android:layout_weight="1.0">
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="اشتراک 6 ماهه" />
+                            <RadioButton android:gravity="center|top" android:id="@+id/sixMahe" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="150.0dip" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+                                <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5.500 \n تومان" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" app:cardCornerRadius="15.0dip" app:cardElevation="15.0dip">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip" android:layout_weight="1.0">
+                            <RadioButton android:gravity="center|top" android:id="@+id/seMahe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" />
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="150.0dip" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+                                <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="15.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5.500 \n تومان" android:layout_centerInParent="true" />
+                            </RelativeLayout>
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="اشتراک 3 ماهه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="قرعه کشی ماهانه" />
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="قرعه کشی ماهانه" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_gravity="bottom|center" android:id="@+id/btn_accept" android:background="@drawable/shape_btn" android:clickable="true" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:foreground="?android:selectableItemBackgroundBorderless" android:elevation="5.0dip">
+        <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="تایید" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</FrameLayout>

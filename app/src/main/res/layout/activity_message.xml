@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/nim" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="50.0dip" app:cardBackgroundColor="@color/colorPrimary">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="20.0sp" android:textColor="@color/whiteColor" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="پیام ها" android:layout_toLeftOf="@+id/back" />
+            <ImageView android:id="@+id/back" android:padding="14.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_arrow" android:tint="@color/whiteColor" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/ref" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/recyclerView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

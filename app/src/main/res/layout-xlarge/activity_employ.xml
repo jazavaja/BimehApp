@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:cardBackgroundColor="@color/colorAccent">
+        <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="25.0sp" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="      کارت هدیه      " />
+    </android.support.v7.widget.CardView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+            <com.makeramen.roundedimageview.RoundedImageView android:clickable="true" android:layout_width="fill_parent" android:layout_height="150.0dip" android:foreground="?android:selectableItemBackgroundBorderless" android:src="@color/colorPrimary" android:onClick="learn" app:riv_corner_radius="500.0dip" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="35.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="آموزشی" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" android:onClick="vip_click">
+            <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="150.0dip" android:foreground="?android:selectableItemBackgroundBorderless" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="40.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VIP" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" android:onClick="steady">
+            <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="150.0dip" android:foreground="?android:selectableItemBackgroundBorderless" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="35.0sp" android:textColor="@color/whiteColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="درآمدزایی" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:background="@mipmap/ic_launcher" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="20.0dip" />
+</LinearLayout>

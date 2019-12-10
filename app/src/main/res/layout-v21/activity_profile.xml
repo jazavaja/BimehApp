@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="@+id/refresh" android:background="@drawable/nim" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="40.0dip" android:elevation="5.0dip" app:cardBackgroundColor="@color/colorPrimary">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="20.0sp" android:textColor="@color/whiteColor" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="مشخصات من" android:layout_toLeftOf="@+id/back" />
+                <ImageView android:id="@+id/back" android:padding="14.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_arrow" android:tint="@color/whiteColor" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="90.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" app:cardCornerRadius="15.0dip" app:cardElevation="15.0dip">
+            <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/namePR" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:text="نام و نام خانوادگی" />
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/refer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="معرف :" />
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/personeli" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="شماره پرسنلی" />
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/melicode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="کد ملی" />
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/birth" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="تاریخ تولد" />
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/age" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="سن" />
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="آدرس" />
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/tamas" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="10.0dip" android:text="شماره تماس" />
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/eshterak" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="10.0dip" android:text="پایان اشتراک" />
+                </LinearLayout>
+            </ScrollView>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_gravity="center_horizontal" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="50.0dip" app:cardBackgroundColor="#ffffffff" app:cardCornerRadius="50.0dip" app:cardElevation="15.0dip" app:cardPreventCornerOverlap="true">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/picProfile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_person_black" />
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

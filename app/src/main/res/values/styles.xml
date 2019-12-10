@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="custom" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/whiteColor</item>
+        <item name="android:textColorHint">@color/whiteColor</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:colorActivatedHighlight">@color/whiteColor</item>
+        <item name="android:editTextColor">@color/whiteColor</item>
+    </style>
+
+    <style name="Theme.Transparent"
+        parent="Theme.AppCompat.Dialog">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

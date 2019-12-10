@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" app:cardCornerRadius="10.0dip" app:cardElevation="10.0dip">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/buy_fire" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mrgn_edt" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/mrgn_edt" app:cardCornerRadius="10.0dip" app:cardElevation="10.0dip">
+                        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                            <com.javad.mrbimeh.MyTextView.CustomEditText android:textSize="17.0sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/nameFamily" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/height_edt_fire" android:hint="نام و نام خانوادگی" android:inputType="text" />
+                        </android.support.design.widget.TextInputLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mrgn_edt" android:layout_marginTop="@dimen/mrgn_edt" android:layout_marginRight="@dimen/mrgn_edt" app:cardCornerRadius="10.0dip" app:cardElevation="10.0dip">
+                        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                            <com.javad.mrbimeh.MyTextView.CustomEditText android:textSize="17.0sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/codemeli" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/height_edt_fire" android:hint="کدملی" android:inputType="number" />
+                        </android.support.design.widget.TextInputLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mrgn_edt" android:layout_marginTop="@dimen/mrgn_edt" android:layout_marginRight="@dimen/mrgn_edt" app:cardCornerRadius="10.0dip" app:cardElevation="10.0dip">
+                        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                            <com.javad.mrbimeh.MyTextView.CustomEditText android:textSize="17.0sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/mobile" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/height_edt_fire" android:hint="موبایل" android:inputType="number" />
+                        </android.support.design.widget.TextInputLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mrgn_edt" android:layout_marginTop="@dimen/mrgn_edt" android:layout_marginRight="@dimen/mrgn_edt" app:cardCornerRadius="10.0dip" app:cardElevation="10.0dip">
+                        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                            <com.javad.mrbimeh.MyTextView.CustomEditText android:textSize="17.0sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/email" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/height_edt_fire" android:hint="ایمیل" android:inputType="number" />
+                        </android.support.design.widget.TextInputLayout>
+                    </android.support.v7.widget.CardView>
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="20.0dip">
+                        <android.support.v7.widget.CardView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_weight="0.3" app:cardCornerRadius="10.0dip" app:cardElevation="10.0dip">
+                            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/txt_birth" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1397/03/01" />
+                        </android.support.v7.widget.CardView>
+                        <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="تاریخ تولد" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/shape_btn" android:clickable="true" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="30.0dip" android:foreground="?android:selectableItemBackgroundBorderless">
+                        <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="خرید بیمه" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.javad.mrbimeh.helper.CircleLayout android:id="@+id/pie" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutMode="pie">
+        <View android:background="@color/colorPrimary" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@color/colorAccent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@color/colorPrimaryDark" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@color/colorPrimary" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@color/colorAccent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@color/colorPrimaryDark" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@color/colorAccent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@color/colorPrimaryDark" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.javad.mrbimeh.helper.CircleLayout>
+    <com.github.andreilisun.circular_layout.CircularLayout android:layout_gravity="center" android:layout_width="290.0dip" android:layout_height="290.0dip" android:layoutMode="opticalBounds">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stars" android:layout_weight="1.0" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ایتم یک" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stars" android:layout_weight="1.0" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ایتم یک" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stars" android:layout_weight="1.0" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ایتم یک" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stars" android:layout_weight="1.0" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ایتم یک" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stars" android:layout_weight="1.0" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ایتم یک" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stars" android:layout_weight="1.0" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ایتم یک" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stars" android:layout_weight="1.0" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ایتم یک" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="-100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stars" android:layout_weight="1.0" />
+            <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="14.0sp" android:textColor="@color/colorWhite" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ایتم یک" />
+        </LinearLayout>
+    </com.github.andreilisun.circular_layout.CircularLayout>
+</FrameLayout>

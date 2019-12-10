@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginTop="175.0dip">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.aigestudio.wheelpicker.WheelPicker android:layout_gravity="center" android:id="@+id/wheel_picker" android:layout_width="fill_parent" android:layout_height="fill_parent" app:wheel_indicator_size="12.0dip" app:wheel_item_space="300.0dip" />
+                        <com.makeramen.roundedimageview.RoundedImageView android:background="@drawable/shape_wheel_solid" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+                        <View android:background="@drawable/shape_wheel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="70.0dip" android:layout_marginBottom="70.0dip" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <View android:id="@+id/view1" android:background="@color/whiteColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="245.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                <View android:background="@drawable/shape_wheel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@+id/view2" android:layout_below="@+id/view1" />
+                <View android:id="@+id/view2" android:background="@color/whiteColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentBottom="true" />
+                <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_below="@+id/opration_pic" android:layout_alignParentBottom="true">
+                    <com.javad.mrbimeh.MyTextView.CustomEditText android:textSize="14.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="مبلغ دلخواه بین 1000 تا 50000 تومان" android:inputType="number" />
+                </android.support.design.widget.TextInputLayout>
+                <RelativeLayout android:id="@+id/opration_pic" android:padding="5.0dip" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="30.0dip" android:layout_centerHorizontal="true">
+                    <com.makeramen.roundedimageview.RoundedImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/colorPrimary" app:riv_corner_radius="500.0dip" />
+                    <com.makeramen.roundedimageview.RoundedImageView android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_person_black" app:riv_corner_radius="500.0dip" />
+                </RelativeLayout>
+                <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="20.0dip" android:layout_below="@+id/opration_pic">
+                    <com.javad.mrbimeh.MyTextView.CustomEditText android:textSize="14.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="شماره همراه خود را وارد کنید" android:inputType="phone" />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="قبض دائمی" />
+                    <android.support.v7.widget.AppCompatCheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="شگفت انگیز" />
+                    <android.support.v7.widget.AppCompatCheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="وایمکس" />
+                    <android.support.v7.widget.AppCompatCheckBox android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:background="@drawable/shape_btn" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:foreground="?android:selectableItemBackgroundBorderless">
+                <ImageView android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/cursor" android:layout_alignParentRight="true" />
+                <com.javad.mrbimeh.MyTextView.NumTextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="پرداخت آنلاین" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
